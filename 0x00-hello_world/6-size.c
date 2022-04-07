@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - Print out the sizes of various data types of on the computer
- * this program is compliled on
+ * main - Prints out the sizes of various data types of on the computer
+ * this program is compliled on.
  * Return : 0 if success.
- */
-
+*/
 int main(void)
 {
 	char c;
