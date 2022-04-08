@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -Function begins
+ * main - Function begins
  *
- * Return : Function ends
+ * Return:Function ends
 */
 int main(void)
 {
