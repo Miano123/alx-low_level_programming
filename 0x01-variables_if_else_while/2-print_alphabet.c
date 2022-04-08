@@ -6,7 +6,7 @@
 */
 int main(void)
 {
-	chr ch;
+	char ch;
 
 	for (ch = 'a'; ch <= 'Z'; ch++)
 	{
@@ -14,4 +14,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-}
+}i
