@@ -22,14 +22,15 @@ int main(void)
 				putchar(i);
 				if (i == 57 && e == 56)
 				{
-					putchar(',');
-					putchar(' ');
+					break;
 				}
-				i++;
+				putchar(',');
+				putchar(' ');
 			}
-			e++;
+			i++;
 		}
 		putchar('\n');
 		return (0);
 	}
+	
 
