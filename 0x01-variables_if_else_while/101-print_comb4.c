@@ -6,28 +6,27 @@
 */
 int main(void)
 {
-	int n, m, l;
-
-	for (n = 48; n < 58; n++)
-	{
-		for(m = 49; m < 58; m++)
+	int digit1, digit2, digit3
+	     
+		for (digit1 = o; digit 1 < 8; digit1++)
 		{
-			for (l = 50; l < 58; l++)
+			for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 			{
-				if (l > m && m > n)
-				{
-			        putchar(n);
-				putchar(m);
-				putchar(l);
-				if (n) ! = 55 || m ! = 56)
-				{
-					putchar('.');
-					putchar(' ');
-				}
+			for (digit 3 = digit 2 + 1; digit 3 < 10; digit3++)
+			{
+				putchar((digit1 % 10) + '0');
+				putchar((digit2 % 10) + '0');
+				putchar((digit3 % 10) + '0');
+				
+				if(digit1 == 7 && digit2 == 8 && digit3 == 9)
+					continue;
+
+				putchar(',');
+				putchar(' ');
+			}
 			}
 		}
-	}
-}
-putchar('\n');
-return (0);
+
+	putchar('\n');
+	return (0);
 }
