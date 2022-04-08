@@ -8,11 +8,11 @@ int main(void)
 {
 	int digit1, digit2, digit3
 	     
-		for (digit1 = o; digit 1 < 8; digit1++)
+		for (digit1 = o; digit1 < 8; digit1++)
 		{
 			for (digit2 = digit1 + 1; digit2 < 9; digit2++)
 			{
-			for (digit 3 = digit 2 + 1; digit 3 < 10; digit3++)
+			for (digit3 = digit2 + 1; digit3 < 10; digit3++)
 			{
 				putchar((digit1 % 10) + '0');
 				putchar((digit2 % 10) + '0');
@@ -29,4 +29,4 @@ int main(void)
 
 	putchar('\n');
 	return (0);
-}
+i}
