@@ -23,7 +23,7 @@ int main(void)
 				if (i == 57 && e == 56)
 				{
 					putchar(',');
-					puthcar(' ');
+					putchar(' ');
 				}
 				i++;
 			}
@@ -31,4 +31,5 @@ int main(void)
 		}
 		putchar('\n');
 		return (0);
-}
+	}
+
