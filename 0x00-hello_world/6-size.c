@@ -6,7 +6,7 @@
  * Return:Function ends
 */
 
-int main(void)
+int main()
 {
 	int intType;
 	float floatType;
