@@ -3,7 +3,7 @@
 /**
  * main - putchar followed by a new line
  *
- * Retrun: Always 0 (success)
+ * Retrun: nothing, return void
 */
 
 int main(void)
