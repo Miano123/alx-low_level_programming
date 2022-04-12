@@ -6,7 +6,7 @@
  * Retrun: nothing, return void
 */
 
-int main(void)
+void main ()
 {
 	_putchar('_');
 	_putchar('p');
