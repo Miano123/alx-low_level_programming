@@ -4,7 +4,7 @@
  * main - putchar followed by a new line
  *
  * Retrun: Always 0 (success)
- */
+*/
 
 int main(void)
 {
