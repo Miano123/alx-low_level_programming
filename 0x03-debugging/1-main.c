@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *main - cause an infinite loop
  *Retrun: 0
