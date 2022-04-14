@@ -1,9 +1,10 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-  * print_numbers - function that  prints numbers from , 0 to 9.
+  * print_numbers - function that  prints numbers between 0 to 9
   *
-  * Return: nothing.
+  * Return: nothing
   */
 
 void print_numbers(void)
@@ -12,6 +13,7 @@ void print_numbers(void)
 
 	for (i = o; i < 10; i++)
 	{
-		_putchar("%d\n", i);
+		_putchar (i + '0');
 	}
+	_putchar ('\n);
 }
