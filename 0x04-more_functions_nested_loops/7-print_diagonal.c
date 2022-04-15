@@ -16,7 +16,7 @@ void print_diagonal(int n)
 	}
 	else
 	{
-		for (co =  1; co <= n; co++)
+		for (co = 1; co <= n; co++)
 		{
 			putchar(' ');
 		}
