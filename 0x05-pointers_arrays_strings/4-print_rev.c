@@ -9,16 +9,16 @@
 
 void print_rev(char *s)
 {
-	int i;
+	int i = 0;
 
-	i = 0;
-	while (s[i] != '\0')
+	while (*(s + i) != '\0')
+		i += 1;
+	i -= 1;
+	while (i >= 0)
 	{
-		i++;
-	}
-	for (i = i - i; i >= 0; i--)
-	{
-		putchar(s[i]);
+		putchar(*(s + 1));
+		i--;
 	}
 	putchar('\n');
 }
+
