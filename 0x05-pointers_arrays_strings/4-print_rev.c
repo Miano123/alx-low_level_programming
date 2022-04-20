@@ -20,5 +20,8 @@ void print_rev(char *s)
 	{
 		putchar(s[a]);
 	}
+	{
 	putchar('\n');
+	}
+	return (0);
 }
