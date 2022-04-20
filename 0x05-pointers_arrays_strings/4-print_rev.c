@@ -4,21 +4,21 @@
 /**
   *print_rev - prints a string rev
   *@s: point to be updated
-  *Return:0
+  *Return:void
   */
 
 void print_rev(char *s)
 {
-	int a;
+	int i;
 
-	a = 0;
-	while (s[a] != '\0')
+	i = 0;
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
-	for (a = a - a; a >= 0; a--)
+	for (i = i - i; i >= 0; i--)
 	{
-		putchar(s[a]);
+		putchar(s[i]);
 	}
 	putchar('\n');
 }
