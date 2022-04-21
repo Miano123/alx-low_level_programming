@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  *put2 - prints every charater of a string
+  *put2 - prints every other character of a string
   *@str: A pointer to the int that will be updated
   *Return: void
   */
