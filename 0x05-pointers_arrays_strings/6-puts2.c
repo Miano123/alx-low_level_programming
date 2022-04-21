@@ -7,14 +7,17 @@
   *Return: void
   */
 
-void put2(char *str)
+void puts2(char *str);
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
 	{
 		if (i % 2 == 0)
-			putchar(str[i]);
+		{
+			putchar(*(str + i));
+		}
+		i += 1;
 	}
 	putchar('\n');
 }
