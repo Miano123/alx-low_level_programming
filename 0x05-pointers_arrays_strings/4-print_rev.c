@@ -1,9 +1,9 @@
 #include  <stdio.h>
 
 /**
-  *print_rev - prints a string rev
+  *print_rev - prints a string
   *@s: point to be updated
-  *Return: nothing
+  *Return: Always 0
   */
 
 void print_rev(char *s)
