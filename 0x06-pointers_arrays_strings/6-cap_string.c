@@ -2,8 +2,8 @@
 #include <string.h>
 
 /**
-  *cap_string - function that capitalizes all words
-  *@s: input string
+  *cap_string - Function that capitalizes all words
+  *@s:string
   *Return: pointer to dest
  */
 
