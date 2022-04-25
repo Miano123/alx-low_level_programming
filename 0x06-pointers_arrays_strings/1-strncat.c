@@ -2,11 +2,11 @@
 #include <string.h>
 
 /**
-  *_strncpy - Function that concatenates two strings
-  *@dest:destination
-  *@src:source string
-  *@n:amount of bytes used
-  *Return:dest
+  *_strncat - This is the main function for concatenates two strings
+  *@dest: destination
+  *@src: source string
+  *@n: This is number of bytes.
+  *Return: dest
  */
 
 char *_strncat(char *dest, char *src, int n)
