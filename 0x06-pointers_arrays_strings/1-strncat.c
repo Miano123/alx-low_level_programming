@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
-  *_strncpy - function that concanates two strings
-  *@dest: where the resultant will be stored
+  *_strncpy - Function that concatenates two strings
+  *@dest:destination
   *@src:source string
-  *@n:amount of bytes used from src
+  *@n:amount of bytes used
   *Return:dest
  */
 
