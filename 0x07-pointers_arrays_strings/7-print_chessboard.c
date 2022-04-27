@@ -1,10 +1,9 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
   *print_chessboard - prints the chessboard
-  *@a: input pointer
-  *Return: Always 0
+  *@a:input pointer
+  *Return:Always 0
  */
 
 void print_chessboard(char (*a)[8])
@@ -21,5 +20,4 @@ void print_chessboard(char (*a)[8])
 		putchar(a[i / 8][i - m]);
 	}
 	putchar('\n');
-	return 0;
 }
