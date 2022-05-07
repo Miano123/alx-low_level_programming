@@ -7,7 +7,6 @@
   *@argc: number of command line arguments
   *@argv: array that contains the program command line arguments
   *Return: 0 if successful
-           1 if one of the number contains symbols that is not a digit
   */
 
 int main(int argc, char *argv[])
