@@ -5,12 +5,12 @@
   *string_nconcat - concatenates two strings
   * @s1:first string
   *@s2:second string
-  *@n:amount of bytes
-  *Return: pointer to the allocated memory
-  *if malloc fails, status value is equal to 98
+  *@n:The maximum number of bytes of s2 to concatenate to s1
+  *Return:If the function fails - NULL
+  *Otherwise - a pointer to the concatenated space in memory
   */
 
-char *string_nconcat(char *s1, char *s2, unsigned int n);
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *concat;
 	unsigned int len = n, index;
