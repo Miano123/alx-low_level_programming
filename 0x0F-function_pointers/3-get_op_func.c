@@ -11,7 +11,7 @@
 
 int (*get_op_func(char *s))(int, int)
 {
-	/*declarations*/
+	/** declarations */
 	op_t ops[] = {
 		{"+", op_add},
 		{"-", op_sub},
@@ -21,7 +21,7 @@ int (*get_op_func(char *s))(int, int)
 		{NULL, NULL}
 	};
 	int i;
-	/* matches operator to function */
+	/** matches operator to function */
 		i = 0;
 		while (ops[i].op)
 		{
