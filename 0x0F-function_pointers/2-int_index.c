@@ -3,19 +3,28 @@
 #include <stdlib.h>
 
 /**
-  *array_iterator - executes a function given as a
-  *parameter on each element of an array.
-  *@array: input integer array
+  ** int_index - function that searches for an integer
+  *@array: pointer to the array defined in main
   *@size: size of the array
-  *@action: pointer to the function
-  *Return:0 Always
+  *@cmp: function pointer
+  *Return:0
   */
 
-void array_iterator(int *array, size_t size, void (*action)(int))
+int int_index(int *array, int size, int (*cmp)(int))
 {
-	unsigned int i;
+	int i;
 
-	if (array && action)
+	if (size <= 0)
+		return (-1);
+
+	if ((*cmp) != NULL && array != NULL)
+	{
 		for (i = 0; i < size; i++)
-			action(array[i]);
+		{
+			(*cmp)(array[i]);
+			if ((*cmp)(array[i]) != 0)
+				return (i);
+		}
+	}
+	return (-1);
 }
